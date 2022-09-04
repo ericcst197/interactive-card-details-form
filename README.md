@@ -100,9 +100,9 @@ Complete duration: 12 days (24 Aug 2022 - 4 Sept 2022).
 
 ### Continued development
 
-This project is built with the designs for desktop and mobile view only. 
+This project is built with the designs for desktop and mobile portrait view only. 
 
-There are still some overflows between the two viewports and some media queries needed to add in to become more responsive webpage.  
+There are still overflows between the two viewports and some media queries needed to add in to become more responsive webpage.  
 
 
 ### Useful resources
