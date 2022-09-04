@@ -100,9 +100,12 @@ Complete duration: 12 days (24 Aug 2022 - 4 Sept 2022).
 
 ### Continued development
 
-This project is built with the designs for desktop and mobile view only. 
+This project is built in responsively.
 
-There are still some overflows between the two viewports and some media queries needed to add in to become more responsive webpage.  
+Some implementation can be added in future:
+
+- Can implement some animation for the label when input is in active or focus state.
+- Click the card to switch the position from the front and the back.
 
 
 ### Useful resources

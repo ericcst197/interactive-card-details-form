@@ -11,7 +11,7 @@
     justify-items: center;
     align-items: center;
 
-    @media(max-width: $phone){
+    @media(max-width: $tablet){
         grid-row: 1 ;
         background-image: url(../images/bg-main-mobile.png);
         grid-template-columns: repeat(3,1fr);
@@ -46,7 +46,7 @@
         justify-content: space-between;
         transform: translate(25% ,10%);
 
-        @media(max-width: $phone){
+        @media(max-width: $tablet){
             grid-row: 5/span 5;
             grid-column: 2/3;
             transform: translate(-10%, 10%);
@@ -68,7 +68,7 @@
             height: 2rem;
             background-color: $white;
             border-radius: 50%;
-            @media(max-width: $phone){
+            @media(max-width: $tablet){
                 width: 1.5rem;
                 height: 1.5rem;
             }
@@ -80,7 +80,7 @@
             border: 1px solid $white;
             border-radius: 50%;
             margin-left: 1rem;
-            @media(max-width: $phone){
+            @media(max-width: $tablet){
                 width: .8rem;
                 height: .8rem;
             }
@@ -110,7 +110,7 @@
     }
 
     &__number{
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         font-weight: 500;
         letter-spacing: 4px;
         word-spacing: 5px;
@@ -132,7 +132,7 @@
         align-items: flex-end;
         justify-content: center;
 
-        @media(max-width: $phone){
+        @media(max-width: $tablet){
             grid-row: 2/span 5;
             grid-column: 2/3;
             transform: translate(10% ,10%);
@@ -150,7 +150,7 @@
         letter-spacing: 1px;
         margin-right: 1.5rem;
 
-        @media(max-width: $phone){
+        @media(max-width: $tablet){
             margin-right: 1rem;
         }
     }
