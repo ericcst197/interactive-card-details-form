@@ -35,7 +35,7 @@
       </div>
     </div>
 
-    <form action="" class="form">
+    <form action="#" class="form">
       <div class="wrapper ">
         <div class="form__item form__item-1 mb-md">
           <label class="mb-sm" for="name">Cardholder Name</label>
@@ -45,7 +45,7 @@
         </div>
         <div class="form__item form__item-2 mb-md">
           <label class="mb-sm" for="number">Card Number</label>
-          <input type="text" name="number" id="number" class="form__input" minlength="16" minlength="16"
+          <input type="text" name="number" id="number" class="form__input" minlength="16" maxlength="16"
             autocomplete="cc-csc" placeholder="e.g. 1234 5678 9123 0000">
           <p class="invalid invalid--2"></p>
         </div>
@@ -53,8 +53,8 @@
           <div class="form__item form__item-3">
             <label class="mb-sm" for="date">Exp. Date (MM/YY)</label>
             <div>
-              <input class="form__input divided" type="text" name="date_month" id="date" min="1" max="12" minlength="2"
-                maxlength="2" autocomplete="cc-csc" placeholder="MM">
+              <input class="form__input divided" type="text" name="date_month" id="date" minlength="2" maxlength="2"
+                autocomplete="cc-csc" placeholder="MM">
               <input class="form__input divided" type="text" name="date_year" id="date" minlength="2" maxlength="2"
                 autocomplete="cc-csc" placeholder="YY">
             </div>
